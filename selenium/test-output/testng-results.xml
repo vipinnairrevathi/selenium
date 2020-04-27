@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-07T17:43:44Z" name="Default suite" finished-at="2020-04-07T17:44:27Z" duration-ms="42517">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.Login(java.util.Map)[pri:0, instance:vsc.test.LoginTest@434a63ab]" name="Login" class="vsc.test.LoginTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2020-04-07T17:43:44Z" name="Default test" finished-at="2020-04-07T17:44:27Z" duration-ms="42517">
+      <class name="vsc.test.LoginTest">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:vsc.test.LoginTest@434a63ab]" started-at="2020-04-07T23:13:44Z" name="generateReport" finished-at="2020-04-07T23:13:45Z" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:vsc.test.LoginTest@434a63ab]" started-at="2020-04-07T23:13:45Z" name="beforeclass" finished-at="2020-04-07T23:14:05Z" duration-ms="20087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="methodname(java.lang.reflect.Method)[pri:0, instance:vsc.test.LoginTest@434a63ab]" started-at="2020-04-07T23:14:08Z" name="methodname" finished-at="2020-04-07T23:14:08Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void vsc.test.LoginTest.Login(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodname -->
+        <test-method signature="Login(java.util.Map)[pri:0, instance:vsc.test.LoginTest@434a63ab]" started-at="2020-04-07T23:14:08Z" name="Login" data-provider="LoginTcName" finished-at="2020-04-07T23:14:20Z" duration-ms="12279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, Username=vipin.nair60@gmail.com, TestcaseName=Login}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:vsc.test.LoginTest@434a63ab]" started-at="2020-04-07T23:14:20Z" name="afterclass" finished-at="2020-04-07T23:14:27Z" duration-ms="6537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- vsc.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

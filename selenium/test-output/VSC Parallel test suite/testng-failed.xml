@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [VSC Parallel test suite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="vsc.test.LoginTest">
+        <methods>
+          <include name="Login" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- vsc.test.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [VSC Parallel test suite] -->

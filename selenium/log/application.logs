@@ -1,0 +1,8 @@
+07/04/2020 23:13:58 vscapplicationLog Launching browser
+07/04/2020 23:14:05 vscapplicationLog Launching browser
+07/04/2020 23:14:08 vscapplicationLog <--------------------Login test ----------------------------------------->
+07/04/2020 23:14:08 vscapplicationLog New Login test started
+07/04/2020 23:14:18 vscapplicationLog Perform click action on Accountlink
+07/04/2020 23:14:18 vscapplicationLog Performed a type action on : username as vipin.nair60@gmail.com
+07/04/2020 23:14:20 vscapplicationLog Perform click action on continue button
+07/04/2020 23:14:20 vscapplicationLog Login test Successfully Finished 
